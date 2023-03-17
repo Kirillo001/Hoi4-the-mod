@@ -1,0 +1,32 @@
+###########################
+#Testing Events from new Igeologies
+###########################
+
+add_namespace = testideologies
+
+country_event = {
+    id = testideologies.1
+	title = testideologies.1.t
+	desc = testideologies.1.d
+	picture = GFX_report_event_fascist_gathering
+	
+	is_triggered_only = yes
+	
+	option = {
+	    name = testideologies.1.a
+		
+		}
+		
+		add_political_power = 10
+		}
+	}
+	option = {
+	    name = testideologies.1.b
+		ai_chance = {
+		    base = 0
+		}
+		hidden effect = {
+		    add_political_power = 100
+		}
+	}
+}	
